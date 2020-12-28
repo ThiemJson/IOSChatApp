@@ -13,6 +13,9 @@
 		635CBA7E25997EFF006CB56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635CBA7D25997EFF006CB56F /* Assets.xcassets */; };
 		635CBA8125997EFF006CB56F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635CBA8025997EFF006CB56F /* Preview Assets.xcassets */; };
 		635CBA8425997EFF006CB56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635CBA8225997EFF006CB56F /* LaunchScreen.storyboard */; };
+		635CBA8C25997FD2006CB56F /* views-message-content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CBA8B25997FD2006CB56F /* views-message-content.swift */; };
+		635CBA9225998080006CB56F /* models-message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CBA9125998080006CB56F /* models-message.swift */; };
+		635CBA942599809E006CB56F /* models-user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CBA932599809E006CB56F /* models-user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		635CBA8025997EFF006CB56F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		635CBA8325997EFF006CB56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635CBA8525997EFF006CB56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635CBA8B25997FD2006CB56F /* views-message-content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "views-message-content.swift"; sourceTree = "<group>"; };
+		635CBA9125998080006CB56F /* models-message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "models-message.swift"; sourceTree = "<group>"; };
+		635CBA932599809E006CB56F /* models-user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "models-user.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				635CBA8225997EFF006CB56F /* LaunchScreen.storyboard */,
 				635CBA8525997EFF006CB56F /* Info.plist */,
 				635CBA7F25997EFF006CB56F /* Preview Content */,
+				635CBA8B25997FD2006CB56F /* views-message-content.swift */,
+				635CBA9125998080006CB56F /* models-message.swift */,
+				635CBA932599809E006CB56F /* models-user.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635CBA9225998080006CB56F /* models-message.swift in Sources */,
 				635CBA7825997EF9006CB56F /* AppDelegate.swift in Sources */,
 				635CBA7A25997EF9006CB56F /* SceneDelegate.swift in Sources */,
+				635CBA8C25997FD2006CB56F /* views-message-content.swift in Sources */,
+				635CBA942599809E006CB56F /* models-user.swift in Sources */,
 				635CBA7C25997EF9006CB56F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
