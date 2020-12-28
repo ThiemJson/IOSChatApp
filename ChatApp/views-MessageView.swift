@@ -10,7 +10,14 @@ import SwiftUI
 
 struct views_MessageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .bottom, spacing: 15) {
+            Image("My-avatar")
+                .resizable()
+                .frame(width: 40, height: 40, alignment: .center)
+                .cornerRadius(20)
+            ContentMessageView("There are a lot of premium iOS templates on iosapptemplates.com",
+                               isCurrentUser: false)
+        }
     }
 }
 
