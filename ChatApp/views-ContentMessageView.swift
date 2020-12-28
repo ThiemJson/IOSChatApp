@@ -29,6 +29,6 @@ struct ContentMessageView: View {
 
 struct ContentMessageView_Previews: PreviewProvider {
     static var previews: some View {
-        views_ContentMessageView("Nothing many specials",true)
+        ContentMessageView("Nothing many specials",true)
     }
 }

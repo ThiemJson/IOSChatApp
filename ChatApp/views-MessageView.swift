@@ -8,21 +8,22 @@
 
 import SwiftUI
 
-struct views_MessageView: View {
+struct MessageView: View {
     var body: some View {
-        HStack(alignment: .bottom, spacing: 15) {
-            Image("My-avatar")
+        let iconImages = ["icon1", "icon2","icon3"]
+        return
+            HStack(alignment: .bottom, spacing: 15) {
+            Image(iconImages.randomElement() ?? "icon1")
                 .resizable()
                 .frame(width: 40, height: 40, alignment: .center)
                 .cornerRadius(20)
-            ContentMessageView("There are a lot of premium iOS templates on iosapptemplates.com",
-                               isCurrentUser: false)
+            ContentMessageView("There are a lot of premium iOS templates on iosapptemplates.com", false)
         }
     }
 }
 
 struct views_MessageView_Previews: PreviewProvider {
     static var previews: some View {
-        views_MessageView()
+        MessageView()
     }
 }

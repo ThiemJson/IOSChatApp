@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ContentMessageView("Nothing many specials",false)
+        ChatView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentMessageView("Nothing many specials",true)
+        ChatView()
     }
 }
